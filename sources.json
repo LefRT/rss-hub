@@ -1,0 +1,15 @@
+{
+  "site": "https://github.com/LefRT/rss-hub",
+  "sources": [
+    {
+      "id": "zzz-news",
+      "title": "绝区零·官网新闻",
+      "intro": "米哈游《绝区零》官网新闻资讯（资讯/公告/活动）",
+      "type": "mihoyo_content_v2",
+      "api_base": "https://api-takumi-static.mihoyo.com/content_v2_user/app/706fd13a87294881",
+      "detail_base": "https://zzz.mihoyo.com/news",
+      "chan_id": 273,
+      "lang": "zh-cn"
+    }
+  ]
+}
