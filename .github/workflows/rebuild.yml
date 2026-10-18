@@ -1,7 +1,8 @@
 name: rebuild
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    # 每 12 小时一次（UTC 00:00 / 12:00 = 北京 08:00 / 20:00）
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 permissions:
